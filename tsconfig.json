@@ -1,0 +1,23 @@
+{
+    
+    "compilerOptions": {
+        //taget is the type of javascript we will be compiling
+        "target": "ES5",
+        //module is the way we are importing and exporting
+        "module": "CommonJS",
+        //noImplicitAny means we cannot leave any variable untyped
+        "noImplicitAny": true,
+        //removeComments obvious..
+        "removeComments": true,
+        //sourceMap creates a second Source Map file for debugging
+        "sourceMap": true,
+        //outDir this is the folder for output 
+        "outDir": "dist",
+        //esModuleInterop 
+        "esModuleInterop":true
+
+    },
+
+    "include": ["src/**/*"]
+    //this is telling tsconfic where to start the search, ** including all folders * and all files
+}
